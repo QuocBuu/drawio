@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-21T03:34:58.570Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="tnH7FEzB0SWpytM5jtHa" version="21.6.8" type="device">
+<mxfile host="app.diagrams.net" modified="2023-08-21T03:47:09.270Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="8tY8p1pB7FsB2I7EIRgM" version="21.6.8" type="device">
   <diagram name="Page-1" id="xHRpkcf7Uff5HgZ3ALfG">
-    <mxGraphModel dx="2087" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1461" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -164,7 +164,7 @@
             <mxPoint x="568" y="605" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UpgFTflyBAgRF1FKhpor-133" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;task_post_pure_msg(&lt;/div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot; color=&quot;#ff3333&quot;&gt;AR_GAME_BORDER_ID&lt;/font&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;,&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot; color=&quot;#ff3333&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;ak_msg_t* &lt;font color=&quot;#ff0000&quot;&gt;msg&lt;/font&gt;)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="UpgFTflyBAgRF1FKhpor-133" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;task_post_pure_msg(&lt;/div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot; color=&quot;#ff3333&quot;&gt;AR_GAME_BORDER_ID&lt;/font&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;,&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot; color=&quot;#ff3333&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;sig)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="111.37" y="210" width="325.25" height="110" as="geometry" />
         </mxCell>
         <mxCell id="UpgFTflyBAgRF1FKhpor-135" value="&lt;b&gt;(1)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
