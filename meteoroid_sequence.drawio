@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T03:08:34.275Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ZomnEKxyLwXIwR4IrZw9" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-29T06:57:36.851Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="F__2INwOc963esYrzO_p" version="21.6.9" type="github" pages="2">
   <diagram name="Page-1" id="xHRpkcf7Uff5HgZ3ALfG">
-    <mxGraphModel dx="1938" dy="1013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1461" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -155,7 +155,7 @@
             <mxPoint x="649" y="605" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CxDIDh3Z8Sex8tNCwT2t-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.016;exitY=0.502;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UpgFTflyBAgRF1FKhpor-133">
+        <mxCell id="CxDIDh3Z8Sex8tNCwT2t-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.016;exitY=0.502;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="UpgFTflyBAgRF1FKhpor-133" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="355" y="190" as="targetPoint" />
             <Array as="points">
@@ -164,7 +164,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="CxDIDh3Z8Sex8tNCwT2t-3" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;No&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CxDIDh3Z8Sex8tNCwT2t-2">
+        <mxCell id="CxDIDh3Z8Sex8tNCwT2t-3" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;No&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="CxDIDh3Z8Sex8tNCwT2t-2" vertex="1" connectable="0">
           <mxGeometry x="-0.6208" y="-1" relative="1" as="geometry">
             <mxPoint x="11" as="offset" />
           </mxGeometry>
@@ -219,6 +219,153 @@
             <mxPoint x="517.62" y="940" as="sourcePoint" />
             <mxPoint x="647.62" y="940" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vz9rmZPSco1qUPVxlytu" name="Page-2">
+    <mxGraphModel dx="657" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Z_ih8TIKBVAhltBskZZr-1" value="Screen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_ih8TIKBVAhltBskZZr-3" value="Meteoroid" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_ih8TIKBVAhltBskZZr-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="Z_ih8TIKBVAhltBskZZr-1" source="Z_ih8TIKBVAhltBskZZr-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="480" as="sourcePoint" />
+            <mxPoint x="560" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z_ih8TIKBVAhltBskZZr-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z_ih8TIKBVAhltBskZZr-12" target="Z_ih8TIKBVAhltBskZZr-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="490" as="sourcePoint" />
+            <mxPoint x="520" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z_ih8TIKBVAhltBskZZr-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1.076;exitY=0.101;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="Z_ih8TIKBVAhltBskZZr-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305.76" y="158.38" as="sourcePoint" />
+            <mxPoint x="410.11" y="310.0000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="306" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z_ih8TIKBVAhltBskZZr-8" value="AR_GAME_BORDER_SETUP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z_ih8TIKBVAhltBskZZr-7">
+          <mxGeometry x="-0.0338" y="-2" relative="1" as="geometry">
+            <mxPoint x="4" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z_ih8TIKBVAhltBskZZr-10" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="Z_ih8TIKBVAhltBskZZr-12" source="Z_ih8TIKBVAhltBskZZr-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="480" as="sourcePoint" />
+            <mxPoint x="520" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z_ih8TIKBVAhltBskZZr-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.953;entryY=0.157;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="Z_ih8TIKBVAhltBskZZr-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="304.53" y="179.65999999999997" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="180" />
+              <mxPoint x="470" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z_ih8TIKBVAhltBskZZr-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515.11" y="160" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_ih8TIKBVAhltBskZZr-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515.11" y="280" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_ih8TIKBVAhltBskZZr-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.983;exitY=0.421;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="Z_ih8TIKBVAhltBskZZr-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="304.8299999999999" y="279.98" as="sourcePoint" />
+            <mxPoint x="515.11" y="269.9399999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="280" />
+              <mxPoint x="450" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z_ih8TIKBVAhltBskZZr-22" value="AR_GAME_METEOROID_DETONATOR" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z_ih8TIKBVAhltBskZZr-21">
+          <mxGeometry x="-0.0338" y="-2" relative="1" as="geometry">
+            <mxPoint x="4" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z_ih8TIKBVAhltBskZZr-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.933;exitY=0.577;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="Z_ih8TIKBVAhltBskZZr-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="304.3299999999998" y="339.26" as="sourcePoint" />
+            <mxPoint x="410.11" y="490.0000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="339" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z_ih8TIKBVAhltBskZZr-26" value="AR_GAME_BORDER_RESET" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z_ih8TIKBVAhltBskZZr-25">
+          <mxGeometry x="-0.0338" y="-2" relative="1" as="geometry">
+            <mxPoint x="-12" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z_ih8TIKBVAhltBskZZr-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=0.961;entryY=0.632;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Z_ih8TIKBVAhltBskZZr-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="304.61" y="360.1600000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z_ih8TIKBVAhltBskZZr-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515.11" y="340" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_ih8TIKBVAhltBskZZr-29" value="Setup thuộc tính&amp;nbsp;&lt;br&gt;ban đầu" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;base=22;size=10;position=0.17;" vertex="1" parent="1">
+          <mxGeometry x="530" y="130" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_ih8TIKBVAhltBskZZr-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1.076;exitY=0.265;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="Z_ih8TIKBVAhltBskZZr-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305.76" y="220.70000000000005" as="sourcePoint" />
+            <mxPoint x="410.11" y="370.0000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="221" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z_ih8TIKBVAhltBskZZr-58" value="AR_GAME_METEOROID_RUN" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z_ih8TIKBVAhltBskZZr-57">
+          <mxGeometry x="-0.0338" y="-2" relative="1" as="geometry">
+            <mxPoint x="-17" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z_ih8TIKBVAhltBskZZr-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=0.959;entryY=0.316;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Z_ih8TIKBVAhltBskZZr-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="304.59000000000003" y="240.08000000000004" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z_ih8TIKBVAhltBskZZr-60" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515.11" y="220" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_ih8TIKBVAhltBskZZr-61" value="Cập nhật tình trạng của Thiên thạch" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;base=22;size=10;position=0.17;" vertex="1" parent="1">
+          <mxGeometry x="530" y="190" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_ih8TIKBVAhltBskZZr-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="299.9999999999999" y="500.0000000000001" as="sourcePoint" />
+            <mxPoint x="299.9999999999999" y="500.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z_ih8TIKBVAhltBskZZr-63" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="120" width="10" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_ih8TIKBVAhltBskZZr-64" value="Kiểm tra thiên thạch có chạm vào mũi tên" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;base=22;size=10;position=0.17;" vertex="1" parent="1">
+          <mxGeometry x="530" y="250" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_ih8TIKBVAhltBskZZr-65" value="Reset thuộc tính" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;base=22;size=10;position=0.17;" vertex="1" parent="1">
+          <mxGeometry x="530" y="310" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
