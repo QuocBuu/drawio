@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T04:29:17.398Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="P9bxxM1bJpQ0kJtZEgbq" version="21.7.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-11T08:49:53.112Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="vhNZKZIlyOHMHLnFjaz5" version="21.7.2" type="github" pages="2">
   <diagram name="Page-1" id="xHRpkcf7Uff5HgZ3ALfG">
     <mxGraphModel dx="1221" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -224,7 +224,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vz9rmZPSco1qUPVxlytu" name="Page-2">
-    <mxGraphModel dx="1628" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1167" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -334,7 +334,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Z_ih8TIKBVAhltBskZZr-64" value="Thiên thạch di chuyển" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;base=22;size=10;position=0.17;" parent="1" vertex="1">
-          <mxGeometry x="690.67" y="370" width="130" height="40" as="geometry" />
+          <mxGeometry x="690.67" y="361" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Z_ih8TIKBVAhltBskZZr-65" value="Reset thuộc tính" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;base=22;size=10;position=0.17;" parent="1" vertex="1">
           <mxGeometry x="690" y="508" width="130" height="40" as="geometry" />
@@ -481,8 +481,8 @@
         <mxCell id="Z_ih8TIKBVAhltBskZZr-61" value="Thiên thạch di chuyển" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;base=22;size=10;position=0.17;" parent="Nf0Q_2E6Zr9-tCof2FJ3-28" vertex="1">
           <mxGeometry x="530" y="30" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AJawywp7CrKpe5rzHfXs-12" value="Mũi tên chạm vào Thiên thạch" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.08;base=22;size=12;position=0.25;" parent="Nf0Q_2E6Zr9-tCof2FJ3-28" vertex="1">
-          <mxGeometry x="530" y="220" width="130" height="43" as="geometry" />
+        <mxCell id="AJawywp7CrKpe5rzHfXs-12" value="Mũi tên chạm vào Thiên thạch =&amp;gt; Thiên thạch nổ" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.15;base=22;size=12;position=0.25;" parent="Nf0Q_2E6Zr9-tCof2FJ3-28" vertex="1">
+          <mxGeometry x="530" y="220" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
