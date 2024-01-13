@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-13T07:28:53.200Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="gJoM67tRBnCQr4QZzwk-" version="22.1.18" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-01-13T07:47:57.555Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="NPu9ATeLt1MJ2g3kUbdU" version="22.1.18" type="github" pages="4">
   <diagram name="init_data_on_flash" id="_rqPvwlqcu5d_cv0ufVX">
     <mxGraphModel dx="2454" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -146,7 +146,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="e3z4IiF4BHt0ulagmXcm" name="action_uart">
-    <mxGraphModel dx="679" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1604" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -413,7 +413,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hb0JVVNlKIRsQESE92Gt" name="Setting">
-    <mxGraphModel dx="1604" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1604" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -427,7 +427,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0661toBc3fD7KJrfmaGB" name="timer_debug">
-    <mxGraphModel dx="679" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2454" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -563,6 +563,9 @@
         </mxCell>
         <mxCell id="cNhuRpZhTBZm_cNiFHBz-21" value="Counter timer" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="480" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hKiAOYYrgddhuMVIIT8X-1" value="&lt;div&gt;Check state uart and rf24&lt;/div&gt;&lt;div&gt;reset couner&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="550" width="150" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
