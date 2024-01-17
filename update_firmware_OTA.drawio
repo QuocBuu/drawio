@@ -1,9 +1,289 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T08:43:20.534Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.18" etag="bkcMM5gIWxWN0dDTJd3x" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T10:45:04.514Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Bd282PlAz0fp_ZlDST9b" version="22.1.18" type="github">
   <diagram name="Trang-1" id="56AyVAC0W4KGTkij7woR">
-    <mxGraphModel>
+    <mxGraphModel dx="3514" dy="2036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Fb_U7boIacRhd0R1twYU-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.electronicwings.com/storage/PlatformSection/TopicContent/368/description/uploading%20arduino%20program.png;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="-50" width="880.22" height="523" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-4" value="Bootloader Section" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-921" y="430" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-5" value="Flash save firmware OTA&lt;br&gt;(flash_fota)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-921" y="250" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-6" value="Application Section" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-921" y="30" width="200" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-7" value="Cloud" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="100" height="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Fb_U7boIacRhd0R1twYU-7">
+          <mxGeometry x="45" y="80" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-38" value="FOTA report" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="Fb_U7boIacRhd0R1twYU-7" target="Fb_U7boIacRhd0R1twYU-39">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-325" y="507" as="sourcePoint" />
+            <mxPoint x="-230" y="502" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-39" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Fb_U7boIacRhd0R1twYU-7">
+          <mxGeometry x="45" y="502" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-75" value="FOTA report" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="Fb_U7boIacRhd0R1twYU-7" target="Fb_U7boIacRhd0R1twYU-76">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-325" y="865" as="sourcePoint" />
+            <mxPoint x="-230" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-76" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Fb_U7boIacRhd0R1twYU-7">
+          <mxGeometry x="45" y="860" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-77" value="{&quot;fw_state&quot;: &quot;FAILED&quot;}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Fb_U7boIacRhd0R1twYU-7">
+          <mxGeometry x="-240" y="870" width="189" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-8" value="Gateway" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-140" y="40" width="100" height="2180" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Fb_U7boIacRhd0R1twYU-8">
+          <mxGeometry x="45" y="120" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-22" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Fb_U7boIacRhd0R1twYU-8">
+          <mxGeometry x="45" y="250" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-23" value="on_start_firmware_ota()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="Fb_U7boIacRhd0R1twYU-22" parent="Fb_U7boIacRhd0R1twYU-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="230" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-35" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Fb_U7boIacRhd0R1twYU-8">
+          <mxGeometry x="45" y="448" width="10" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-36" value="publish_firmware_ota_status()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="Fb_U7boIacRhd0R1twYU-35" parent="Fb_U7boIacRhd0R1twYU-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="428" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="458" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-9" value="Flash&lt;br&gt;Gateway" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-501" y="40" width="100" height="1710" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Fb_U7boIacRhd0R1twYU-9">
+          <mxGeometry x="46" y="140" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-11" value="FOTA trigger" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-1" y="-10" width="60" relative="1" as="geometry">
+            <mxPoint x="360" y="126" as="sourcePoint" />
+            <mxPoint x="300" y="126" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-12" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;entryX=0.986;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Fb_U7boIacRhd0R1twYU-10" target="Fb_U7boIacRhd0R1twYU-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="110" y="160" as="sourcePoint" />
+            <mxPoint x="-50" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-14" value="FOTA trigger" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="130" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-16" value="Read size flash_fota" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;" edge="1" target="Fb_U7boIacRhd0R1twYU-15" parent="1" source="Fb_U7boIacRhd0R1twYU-13">
+          <mxGeometry x="0.0014" relative="1" as="geometry">
+            <mxPoint x="-375" y="185" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-17" value="Return size data" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="Fb_U7boIacRhd0R1twYU-15" parent="1" target="Fb_U7boIacRhd0R1twYU-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-375" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-18" value="flash_fota.size()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-369" y="184" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-20" value="(fw_title,&amp;nbsp;fw_version,&amp;nbsp;fw_size,&amp;nbsp;&amp;nbsp;&lt;br&gt;fw_checksum,&amp;nbsp;fw_checksum_algorithm)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-32" y="162" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-24" value="Accept FOTA?" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=140;height=50;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="320" width="1050" height="2150" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-28" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-95" y="350" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-29" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="Fb_U7boIacRhd0R1twYU-28" parent="1">
+          <mxGeometry x="0.0084" relative="1" as="geometry">
+            <mxPoint x="-90" y="330" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-60" y="360" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-30" value="NO" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="390" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-31" value="FOTA report" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="Fb_U7boIacRhd0R1twYU-28" target="Fb_U7boIacRhd0R1twYU-32">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-70" y="400" as="sourcePoint" />
+            <mxPoint x="10" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-32" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="285" y="400" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-33" value="{&quot;fw_state&quot;: &quot;FAILED&quot;}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="29" y="410" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-34" value="YES" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="474" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-37" value="publish_firmware_ota_status()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="330" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-40" value="{&quot;fw_state&quot;: &quot;DOWNLOADING&quot;}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="552" width="189" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-41" value="Binary package request&lt;br&gt;{chunksize}" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-85" y="635" as="sourcePoint" />
+            <mxPoint x="285" y="635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-43" value="(request_id = x, chuck_id = 0)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="640" width="189" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-44" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="285" y="634" width="10" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-45" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;entryX=0.986;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="284.5" y="748" as="sourcePoint" />
+            <mxPoint x="-85.5" y="748" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-46" value="Binary package response" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="12.25" y="720" width="174.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-47" value="(topic, payload[])" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1350" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-48" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-95" y="744" width="10" height="266" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-49" value="(topic, payload[], length)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="754" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-50" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-456" y="754" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-51" value="Write data on flash_fota" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
+          <mxGeometry x="0.0014" relative="1" as="geometry">
+            <mxPoint x="-96" y="760" as="sourcePoint" />
+            <mxPoint as="offset" />
+            <mxPoint x="-446" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-52" value="Return funtion" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="Fb_U7boIacRhd0R1twYU-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-96" y="829" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-53" value="on_cloud_fota_chuck()&lt;br&gt;{bin_buffer, bin_size}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="763" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-55" value="on_cloud_fota_chuck()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-368" y="831" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-56" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-456" y="552" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-57" value="Open and clean flash_fota" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
+          <mxGeometry x="0.0014" relative="1" as="geometry">
+            <mxPoint x="-96" y="558" as="sourcePoint" />
+            <mxPoint as="offset" />
+            <mxPoint x="-446" y="558" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-58" value="Return funtion" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="Fb_U7boIacRhd0R1twYU-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-96" y="627" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-59" value="flash_fota.open()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="557" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-62" value="flash_fota.open()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="626" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-64" value="flash_fota.size()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-368" y="256" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-66" value="flash_fota.write&lt;br&gt;(uint8_t data)" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="741" width="99" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-73" value="Wite failure ?&lt;br&gt;on_cloud_fota_chuck != 0" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=150;height=50;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="870" width="1020" height="990" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-74" value="YES" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="930" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-78" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-456" y="925" width="10" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-79" value="Clean and close flash_fota" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
+          <mxGeometry x="0.0032" relative="1" as="geometry">
+            <mxPoint x="-96" y="931" as="sourcePoint" />
+            <mxPoint as="offset" />
+            <mxPoint x="-446" y="931" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-81" value="flash_fota.close()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="930" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-83" value="Return funtion" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-95" y="1000" as="targetPoint" />
+            <mxPoint x="-445" y="1000" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-85" value="flash_fota.close()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-368" y="1000" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-86" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-95" y="1030" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-87" value="on_cloud_fota_cancel()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="Fb_U7boIacRhd0R1twYU-86" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-90" y="1010" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-60" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-88" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=-0.001;exitY=0.637;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.628;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-641.0500000000002" y="454.2399999999998" as="sourcePoint" />
+            <mxPoint x="410" y="449.55999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-89" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=-0.001;exitY=0.637;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-627.0000000000002" y="1082.6799999999998" as="sourcePoint" />
+            <mxPoint x="383" y="1078" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-90" value="NO" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="1090" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb_U7boIacRhd0R1twYU-91" value="if on_cloud_fota_chuck() return success, request next binary pakage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="1100" width="230" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
