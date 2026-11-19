@@ -8,7 +8,7 @@
           <mxGeometry height="115" width="110" x="670" y="670" as="geometry" />
         </mxCell>
         <mxCell id="bp9kdGU8u9uL4V8hCuVX-129" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=aptos display;fontSize=16;fillColor=none;" value="" vertex="1">
-          <mxGeometry height="1030" width="1090" x="-100" y="-50" as="geometry" />
+          <mxGeometry height="1030" width="1100" x="-100" y="-50" as="geometry" />
         </mxCell>
         <mxCell id="bp9kdGU8u9uL4V8hCuVX-126" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=aptos display;fontSize=16;fillColor=none;snapToPoint=1;allowArrows=0;" value="" vertex="1">
           <mxGeometry height="970" width="780" x="50" y="-20" as="geometry" />
@@ -120,7 +120,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bp9kdGU8u9uL4V8hCuVX-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontFamily=aptos display;fontSize=16;" value="External Flash&lt;br&gt;(QSPI XIP)" vertex="1">
-          <mxGeometry height="50" width="110" x="850" y="350" as="geometry" />
+          <mxGeometry height="50" width="110" x="860" y="350" as="geometry" />
         </mxCell>
         <mxCell id="bp9kdGU8u9uL4V8hCuVX-53" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;endWidth=7;endSize=3;startWidth=7;startSize=3;width=7;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontFamily=aptos display;fontSize=16;" target="bp9kdGU8u9uL4V8hCuVX-52" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
