@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" pages="2">
   <diagram id="TdJLtE1hgJmKDN1Q-AGZ" name="Fu2">
-    <mxGraphModel dx="2843" dy="2238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3433" dy="2527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -390,7 +390,7 @@
             <mxPoint x="70" y="545" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bp9kdGU8u9uL4V8hCuVX-125" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" value="JTAG Tool" vertex="1">
+        <mxCell id="bp9kdGU8u9uL4V8hCuVX-125" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;fontFamily=aptos display;fontSize=16;" value="JTAG Tool" vertex="1">
           <mxGeometry height="50" width="90" x="-90" as="geometry" />
         </mxCell>
         <mxCell id="bp9kdGU8u9uL4V8hCuVX-127" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;endWidth=7;endSize=3;startWidth=7;startSize=3;width=9;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
