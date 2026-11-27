@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" pages="2">
   <diagram id="TdJLtE1hgJmKDN1Q-AGZ" name="Fu2">
-    <mxGraphModel dx="2706" dy="2171" grid="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3078" dy="2385" grid="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,7 +55,7 @@
         <mxCell id="bp9kdGU8u9uL4V8hCuVX-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=aptos display;fontSize=16;" value="RTC" vertex="1">
           <mxGeometry height="50" width="90" x="70" y="520" as="geometry" />
         </mxCell>
-        <mxCell id="bp9kdGU8u9uL4V8hCuVX-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontFamily=aptos display;fontSize=16;" value="GPIOs&lt;br&gt;(43)" vertex="1">
+        <mxCell id="bp9kdGU8u9uL4V8hCuVX-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontFamily=aptos display;fontSize=16;" value="GPIOs&lt;br&gt;(38)" vertex="1">
           <mxGeometry height="50" width="90" x="70" y="600" as="geometry" />
         </mxCell>
         <mxCell id="bp9kdGU8u9uL4V8hCuVX-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=aptos display;fontSize=16;" value="Usart&lt;br&gt;(5)" vertex="1">
